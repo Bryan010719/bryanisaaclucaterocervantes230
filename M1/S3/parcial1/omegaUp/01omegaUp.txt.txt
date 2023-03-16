@@ -1,0 +1,30 @@
+class program {
+define turnright()
+{
+turnleft();
+turnleft();
+turnleft();
+}
+    program () {
+       turnleft();
+       move();
+       turnright();
+       move();
+       turnright();
+       move();
+       pickbeeper();
+       turnleft();
+       turnleft();
+       move();
+       turnleft();
+       move();
+       turnleft();
+       move();
+       putbeeper();
+       
+       
+       
+                    
+        turnoff();
+    }
+}

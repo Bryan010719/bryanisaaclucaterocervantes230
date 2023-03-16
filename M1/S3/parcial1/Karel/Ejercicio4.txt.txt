@@ -1,0 +1,26 @@
+class program {
+
+    program () {
+//Ejercicio 4: Asume que Karel está en la esquina
+//de la 8ªAvenida y la 8ªCalle, con el escenario 
+//que se ve en la siguiente imagen. Escribe un 
+//programa que haga a Karel recoger todos los 
+//zumbadores y acabe en la 1ªesquina orientado al 
+//Sur.
+
+{
+iterate(7)
+{
+iterate(3)
+turnleft();
+move();
+turnleft();
+move();
+pickbeeper();
+
+}
+}
+
+        turnoff();
+    }
+}
