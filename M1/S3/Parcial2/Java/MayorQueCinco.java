@@ -1,5 +1,5 @@
 import java.io.*;
-class MayorQueCinco
+public class MayorQueCinco
 {
     public static void main(String[] yo)
     {
