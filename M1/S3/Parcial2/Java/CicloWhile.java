@@ -1,5 +1,5 @@
 import java.io.*;
-class CicloWhile
+public class CicloWhile
 {
     public static void main (String[] args)
     {
