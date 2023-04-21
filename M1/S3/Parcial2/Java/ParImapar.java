@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class ParImpar
+public class ParImpar
 {
     public static void main(String[] args)
     {
