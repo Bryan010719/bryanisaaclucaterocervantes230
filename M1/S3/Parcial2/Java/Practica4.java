@@ -1,5 +1,5 @@
 import java.io.*;
-class variablesAB
+public class variablesAB
 {
     public static void main(String[] args) 
     {
