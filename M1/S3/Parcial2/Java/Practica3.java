@@ -1,5 +1,5 @@
 import java.io.*;
-class intercambiar
+public class intercambiar
 {
     public static void main(String[] args)
     {
