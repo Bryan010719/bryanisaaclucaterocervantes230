@@ -1,5 +1,5 @@
 import java.io.*;
-class Estaturas
+public class Estaturas
 {
     public static void main(String[] args)
     {
