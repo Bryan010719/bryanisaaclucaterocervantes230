@@ -1,5 +1,5 @@
 import java.io.*;
-class VectorImparPar
+public class VectorImparPar
 {
     public static void main(String[] args)
     {
