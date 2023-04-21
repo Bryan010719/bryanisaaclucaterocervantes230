@@ -1,5 +1,5 @@
 import java.io.*;
-class VectorInvertido
+public class VectorInvertido
 {
     public static void main(String[] yo)
     {
