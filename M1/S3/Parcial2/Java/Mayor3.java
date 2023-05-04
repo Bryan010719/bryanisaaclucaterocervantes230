@@ -4,7 +4,7 @@ public class Mayor3
 {
     public static void main(String[] args)
     {
-        int cuenta = 3;
+        int cuenta = 0;
         int[][] A = {{5, 1, 0}, {3, 2, 0}, {5, 3, 0}};
         for (int f = 0; f < A.length; f++)
         {
@@ -28,7 +28,7 @@ public class Mayor3
         }
         System.out.println("Numeros mayores que 3: ");
 
-        System.out.println(cuenta-3);
+        System.out.println(cuenta);
     }
 }
 
