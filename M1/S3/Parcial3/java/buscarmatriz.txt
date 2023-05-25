@@ -1,0 +1,24 @@
+import java.io.*;
+public class buscarmatriz
+{
+    public static void main(String[] args){
+        int[][] listanumeros = {{0,9,4},
+                                {1,3,7},
+                                {5,4,3}};
+        int encontrado = 0,numbuscado = 10;
+        for (int f = 0; f < listanumeros.length; f++) {
+            for (int c = 0; c < listanumeros[f].length; c++) {
+                if (numbuscado == listanumeros[f][c])
+                    encontrado = 1;
+            }
+        }
+        if(encontrado == 1)
+            System.out.print("Numero: "+numbuscado+",encontrado");
+        else{
+            System.out.print("Numero : "+numbuscado+", no encontrado");
+        }
+
+
+
+    }
+}
